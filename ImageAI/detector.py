@@ -8,7 +8,7 @@ execution_path = os.getcwd()
 detector = ObjectDetection()
 
 # Calling the pre-trained models
-detector.setModelTypeAsRetinaNet()
+detector.setModelTypeAsRetinaNet() # RetinaNet is the base model being used here
 detector.setModelPath(os.path.join(execution_path, "D:\Object_detection\models\coco_best_resnet50_v2.0.1.h5"))
 
 # Loading the models
